@@ -11,9 +11,9 @@ public class Death : MonoBehaviour
     {
         if(other.gameObject.tag == "Player")
         {
-            player.GetComponent<CharacterController>().enabled = false;
+           // player.GetComponent<CharacterController>().enabled = false;
             player.transform.position = checkPos;
-            player.GetComponent<CharacterController>().enabled = true;
+           // player.GetComponent<CharacterController>().enabled = true;
 
         }
     }
